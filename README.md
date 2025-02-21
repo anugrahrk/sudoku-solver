@@ -1,13 +1,12 @@
 # Sudoku Solver
 
-![Sudoku Solver Demo](https://via.placeholder.com/600x300)
+![Sudoku Solver Demo](https://jmp.sh/s/tvaajf1wcmUjs4QpDlZg)
 
 A web-based Sudoku Solver built with Python.
 
 ## Features
 - Interactive 9x9 grid for puzzle input
 - Instant solving with a backtracking algorithm
-- Responsive design for desktop and mobile
 - Input validation and solvability checks
 
 ## Tech Stack
@@ -24,12 +23,12 @@ A web-based Sudoku Solver built with Python.
 ### Steps
 1. Clone the repo:
    ```bash
-   git clone https://github.com/johndoe/sudoku-solver.git
+   git clone https://github.com/anugrahrk/sudoku-solver.git
    cd sudoku-solver
 2. Set up a virtual environment:
    ```bash
     python -m venv venv
-    source venv/bin/activate  # Windows: venv\Scripts\activate
+    source venv/bin/activate
 3. Install dependencies:
     ```bash
     pip install -r requirements.txt

@@ -37,4 +37,6 @@ def solve():
     else:
         return jsonify({"success":False,"message":"Invalid Sudoku"})
 if __name__=="__main__":
-    app.run(debug=True)
+    port = int(os.getenv("PORT", 5000))  # Use Render’s PORT, fallback to 5000 locally
+    app.run(host='0.0.0.0', port=port)
+    # app.run(debug=True)
